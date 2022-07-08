@@ -90,7 +90,7 @@ Authentication
 
   from python_sdk_client.clients_enum import EnvType
 
-  cropin_api = CropinAPI("XXXX", "xyz", "xyz", EnvType.QA)
+  cropin_api = CropinAPI("XXXX", "xyz", "xyz")
 
    #Exception when calling AuthenticateApi->get_token: (404)
    {
